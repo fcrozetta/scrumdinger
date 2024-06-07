@@ -1,14 +1,11 @@
-//
-//  scrumdingerApp.swift
-//  scrumdinger
-//
-//  Created by Fernando Crozetta on 07/06/2024.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
 @main
-struct scrumdingerApp: App {
+struct ScrumdingerApp: App {
     var body: some Scene {
         WindowGroup {
             MeetingView()
