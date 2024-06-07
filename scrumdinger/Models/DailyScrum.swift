@@ -10,7 +10,7 @@ import Foundation
 struct DailyScrum {
     var title: String
     var attendees: [String]
-    var lengthInMinute:Int
+    var lengthInMinutes:Int
     var theme: Theme
 }
 
@@ -19,17 +19,17 @@ extension DailyScrum {
         DailyScrum(
             title: "Design",
             attendees: ["Cathy","Daisy","Simon","Jonathan"],
-            lengthInMinute: 10,
+            lengthInMinutes: 10,
             theme: .yellow),
         DailyScrum(
             title: "App Dev",
             attendees: ["Katie","Gray","Euna","Luis","Darla"],
-            lengthInMinute: 5,
+            lengthInMinutes: 5,
             theme: .orange),
         DailyScrum(
             title: "Web Dev",
             attendees: ["Chella","Chris","Christina","Eden","Karla","Lindsey","Aga","Chad","Jenn","Sarah"],
-            lengthInMinute: 5,
+            lengthInMinutes: 5,
             theme: .poppy)
     ]
 }
